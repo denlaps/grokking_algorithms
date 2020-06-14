@@ -4,8 +4,6 @@ function sum(a, b) {
 
 function binary_search(arr, val) {
   let [bottom, top] = [0, arr.length - 1];
-  if(val > arr[top] || val < arr[bottom]) return null;
-
   let mid = top;
 
   while (val != arr[mid]) {
